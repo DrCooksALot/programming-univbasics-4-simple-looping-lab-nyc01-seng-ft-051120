@@ -14,4 +14,17 @@ end
 
 def output_array(array)
   count = 0
-  unti
+  until count >= array.length do
+    puts array[count]
+    count += 1
+  end
+end
+
+def return_string_array(array)
+  count = 0
+  new_array = []
+  until count >= array.length do
+    new_array << array[count].to_s
+    count += 1
+  end
+end
