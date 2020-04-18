@@ -8,3 +8,6 @@ end
 
 def loop_message_n_times(message,limit)
   limit.times do
+    puts message
+  end
+end
